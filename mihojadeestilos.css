@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* css document */
-body {
-        backgraund-color:#FF5733
+#cabeceraweb { background-color: #393e46;
+}
+
+#navegacionusaurio {
+    background-color: blueviolet;
 }
