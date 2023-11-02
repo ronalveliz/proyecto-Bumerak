@@ -6,3 +6,24 @@
 #navegacionusaurio {
     background-color: blueviolet;
 }
+#barralateral {
+    background-color: aqua;
+    float: left;
+    height: 1155px;
+}
+#contenidoprincipal {
+    background-color: blue;
+    margin-left : 200px;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+#pieprincipal {
+    background-color: #13d85f;
+   
+}
+
+li {
+    background-color: rgb(8, 69, 122);
+    display: inline;
+}
