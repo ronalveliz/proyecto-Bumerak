@@ -1,29 +1,33 @@
 @charset "utf-8";
 /* css document */
+
+
+
 #cabeceraweb { background-color: #393e46;
 }
 
 #navegacionusaurio {
-    background-color: blueviolet;
+    background-color: white;
 }
 #barralateral {
-    background-color: aqua;
+    background-color: white;
     float: left;
     height: 700px;
 }
 #contenidoprincipal {
-    background-color: blue;
+    background-color: white;
     margin-left : 200px;
     padding-left: 15px;
     padding-top: 15px;
 
 }
 #pieprincipal {
-    background-color: #13d85f;
+    background-color: white;
+
    
 }
 
 li {
-    background-color: rgb(8, 69, 122);
-    display: inline;
+    background-color: white;
+
 }
