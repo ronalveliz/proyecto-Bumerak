@@ -1,19 +1,47 @@
 @charset "utf-8";
 /* css document */
 
-img {
-    height: 100px;
-    width: 100px;
-  }
 
-#cabeceraweb { 
-            background-color: #393e46;
-            
-}
+
 
 #navegacionusaurio {
     background-color: white;
 }
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+  }
+  img {
+    border-radius:50%;
+    height: 100px;
+    width: 100px;
+   
+
+  }
+  
+  
+  
+
+
 #barralateral {
     background-color: white;
     float: left;
@@ -32,7 +60,4 @@ img {
    
 }
 
-li {
-    background-color: white;
 
-}
