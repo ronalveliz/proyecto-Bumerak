@@ -1,63 +1,23 @@
 @charset "utf-8";
 /* css document */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+ }
+ table { border-collapse: collapse; border-spacing: 0; }
+ td, th, caption { font-weight: normal; text-align: left; }
+ img, fieldset { border: 0; }
+ ol { padding-left: 1.4em; list-style: decimal; }
+ ul { padding-left: 1.4em; list-style:square; }
+ q:before, q:after { content:''; }
 
-
-
+/* termina el reset*/
 
 #navegacionusaurio {
     background-color: white;
 }
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-  }
-  
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 40px 40px;
-    text-decoration: none;
-  }
-  img {
-    border-radius:50%;
-    height: 100px;
-    width: 100px;
-   
 
-  }
-  
-  
-  
-
-
-#barralateral {
-    background-color: white;
-    float: left;
-    height: 700px;
-}
-#contenidoprincipal {
-    background-color: white;
-    margin-left : 200px;
-    padding-left: 15px;
-    padding-top: 15px;
-
-}
-#pieprincipal {
-    background-color: white;
-
-   
-}
 
 
