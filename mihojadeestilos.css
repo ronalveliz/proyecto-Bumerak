@@ -15,9 +15,35 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 
 /* termina el reset*/
 
-#navegacionusaurio {
-    background-color: white;
+#cabeceraweb img{
+  display: inline-block;
+  padding:4px;
+  background-color: #505762;
+  border-radius: 70px;
+  box-shadow: 5px 5px 10px;
+  transform: scale(0.3);
+  width: 10px auto;
+  
 }
 
 
+#navegacionusaurio ul{
+  font-family: cursive;
+  font-size: 1.5em;
+  
+}
 
+#navegacionusaurio li{
+
+  
+  display: inline-block;
+  
+}
+
+#navegacionusaurio a{
+  
+  background: 100px 100px;
+  
+ 
+
+}
