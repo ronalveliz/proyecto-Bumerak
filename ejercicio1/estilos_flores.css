@@ -1,0 +1,80 @@
+@charset "utf-8";
+/*documento css*/
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+   /* fin del reset*/
+
+
+   body {
+    font-size:62.5% ;
+   }
+
+   h1{
+    font:normal 2.4em verdana, Geneva, sans-serif;
+    background: -webkit-linear-gradient(top, #00f, #0cf );
+    width: 35%;
+    border-radius: 10px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 15px;
+    color: red;
+    box-shadow: #00f 5px 5px 10px;
+    text-shadow: white 2px 2px 3px;
+
+   }
+   
+   h2{
+    font:bold 1.7em verdana, Geneva, sans-serif;
+    margin: 0;
+    padding:5px 0 5px 0px;
+    color:black
+   }
+   section{
+    width: 91%;
+    border-top: 1px dashed #999 ;
+    margin: 15px auto;
+   }
+   figure{
+    display: inline-block;
+    
+   }
+   figure img{
+    padding: 4px ;
+    background: #666;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+    box-shadow: #999 5px 5px 10px;
+    
+   }
+
+   figure img:hover{
+        transform: scale(1.2);
+   }
+  figcaption{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.3em; 
+     text-align: center;
+     margin-top: 5px;
+
+ }
+ footer{
+     clear: both;
+     padding-top: 100px;
+     
+ }
+ footer p{
+     font: 1.6em Georgia," times new roman";
+     color: #666;
+     margin: 10 px 8px;
+ }

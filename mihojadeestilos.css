@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* css document */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+ }
+ table { border-collapse: collapse; border-spacing: 0; }
+ td, th, caption { font-weight: normal; text-align: left; }
+ img, fieldset { border: 0; }
+ ol { padding-left: 1.4em; list-style: decimal; }
+ ul { padding-left: 1.4em; list-style:square; }
+ q:before, q:after { content:''; }
+
+/* termina el reset*/
+
+  
+
+nav {
+  font-family: montserrat;
+  background: linear-gradient(#22252a,#505762);
+  display:flex;
+  align-items: center; 
+  justify-content: space-between;
+  padding-top:10px;
+  padding-left: 5%;
+  padding-right: 5%; 
+  max-width: 1195px;
+  margin: 0 auto;
+  font-weight:bold ;
+  box-shadow:#393e46 5px 5px 10px;
+  
+}
+h1{
+  
+  margin: 0 auto;
+  border-radius: 15px;
+  color: #f5793b;
+  font-size: 2.5em;
+  padding: 10px ;
+  transition-duration: 0.5ms;
+  
+  
+}
+h1:hover{ 
+  background-color:#505762;
+  transform:scale(1.2) ;
+}
+ul{
+  
+ 
+  padding: 10px;
+  
+}
+ul li{
+    border-radius: 15px;
+    padding: 10px 20px;    
+    display: inline-block;
+    transition-duration: 0.5ms;
+}
+ul li:hover{
+  background-color: #505762;
+  transform:scale(1.2) ;
+}
+a{
+  color: #f5793b;
+  text-decoration: none;
+  
+}
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+ 
+
+
