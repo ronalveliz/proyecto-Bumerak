@@ -52,7 +52,19 @@ h2{
 }
 #par2{
     font-family:'Roboto', sans-serif;
-    font-weight: 900;
+    width:200px ;
+    height: 200px;
+    background-image: url(img/100.jpg);
+    padding: 20px;
+    border: 10px  rgb(250, 60, 2);
+    border-style:solid;
+    box-shadow: 5px 5px 5px red;
+    border-radius: 20px;
+    margin: 100px;
+
+  
+    
+
 }
 a{
     font-size: 2em;
@@ -65,4 +77,20 @@ a:hover{
     color: rgb(70, 120, 5);
     font-size: 36px;
     
+}
+button {
+    padding-left:20px ;
+    padding-right: 20px;
+     
+}
+button .fa-solid {
+    
+}
+img .retrete{
+    display:none;
+    max-width: 300px;
+}
+
+.h2{
+
 }

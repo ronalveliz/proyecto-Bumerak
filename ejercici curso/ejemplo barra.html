@@ -11,6 +11,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
 </head>
 <body>
     <header>
@@ -22,22 +26,45 @@
                 <li><a href="hola">3</a></li>
             </ul>
         </nav>
-        <div>
-            <h1>Tiendas 123</h1>
+        <div class="h2">
+            <h2>Tiendas 123</h2>
         </div>
     </header>
     <main>
-        <h2>hola  peru comlonbia japon dsfsdfsdf</h2>
+        <div class="boton">
+            <button onclick="toggleimage()">
+            <i class="fa-solid fa-poo">RUN</i>
+            </button>
+            <img id="retrete" src="/ejercici curso/img/toi.jpg" alt="AAAAAAAAAA">
+        </div>
+            <div class="h2">
+            <h2>hola  peru comlonbia japon dsfsdfsdf</h2>
+            </div>
         <div class="uno">
-        <p id="par1">ofertas 99% ultimos dias</p>
-        <p id="par2"> los mas grandes del munfo son los adc sel mundio miunf rasfjdhfksdhfsduk</p>
-        <p> muetsar gartuita de loas cortas de los de interior </p>    
-    </div>
+            
+            <p id="par1">ofertas 99% ultimos dias</p>
+            <p id="par2"> los mas grandes del munfo son los adc sel mundio miunf rasfjdhfksdhfsduk</p>
+            <p> muetsar gartuita de loas  cortas de los de interior </p>    
+        </div>
 
         <a href="https://developer.mozilla.org/es/docs/Web/CSS/margin">ayuda css</a>
+
+
+        
     </main>
+   
     <footer>
         copyright cosmic
     </footer>
 </body>
+<script>
+    function toggleimage() {
+        let img = document.getElementById("retrete");
+        if(img.style.display=== "none") {
+             img.style.display= "block" ;
+        }else {img.style.display="none"
+            ;
+        }
+    }
+</script>
 </html>
