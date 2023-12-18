@@ -1,20 +1,24 @@
 #juegos de piedra papel y tijeras
 import random
 random.randint(0,2)
-jugadas=[3]
-jugadas[0] = "piedra"
-jugadas[1] = "papel"
-jugadas[2] = "tijera"
+jugadas=["Piedra","Papel","Tijera"]
+jugadas[0]
+jugadas[1] 
+jugadas[2] 
 
+nombre = input("hola como te llamas: ")
 
-jugador = input("hola como te llamas: ")
-
-print("hola", jugador, "escoge 1=piedra, 2=papel, 3=tijera")
-
-ordenador = random.randint
-if jugadas[jugador] == jugadas[ordenador]:
+print("hola", nombre, "escoge 0=piedra, 1=papel, 2=tijera")
+jugador=input()
+ordenador = random.randint(0,2)
+if jugadas[jugador("0")] and jugadas[ordenador("1")]:
     print("empate")
 else:
-   print("hola")
+   print("GANASTE jugador ordenador escoge ****PAPEL****")
 
+
+hora = int(input("Introduce la hora del dia: "))
+if hora >=8:
+     print("esta durmiendo 😒")
+elif hora <= 8     
 
