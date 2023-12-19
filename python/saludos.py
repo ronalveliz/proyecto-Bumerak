@@ -20,13 +20,19 @@ def read_bool(prompt):
             booleano = respuestausuario.lower() in ["si","yes","sí"]
             return booleano
                
-            
+def read_bool2(prompt):
+    while True:
+        try:
+            numero = (input(prompt)).lower()
+            if numero =="si":
+                return True
+            elif numero == "no":
+                return False
+            else:
+                print("valor incorrecto")
+        except Exception:
+            print("No se ha podido leer el booleano")
+                
             
         
               
-edad= read_int ("introduce tu edad")
-peso= read_float ("introduce tu peso")
-
-activo =read_bool("introducce si es trabajador  por cuenta ajena (si/no)")
- 
-   
