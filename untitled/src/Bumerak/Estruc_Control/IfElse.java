@@ -16,8 +16,9 @@ public class IfElse {
 
         int hora = 1;
 
-        if (hora >0 && hora <=8)
+        if (hora >0 && hora <=8){
             System.out.println("durmiendo");
+        }
         else if (hora > 8 && hora <=15) {
             System.out.println("curso angular");
         }

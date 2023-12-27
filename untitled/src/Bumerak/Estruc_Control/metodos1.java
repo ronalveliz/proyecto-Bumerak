@@ -1,4 +1,4 @@
-package Bumerak.Pruebas;
+package Bumerak.Estruc_Control;
 
 import java.util.Scanner;
 
