@@ -1,4 +1,6 @@
-package Ejem_certi_clases_objetos;
+package Ejem_certi_clases_objetos.clases_objetos_ejercicio;
+
+import Ejem_certi_clases_objetos.clases_objetos_ejercicio.Car;
 
 public class main {
     public static void main(String[] args) {

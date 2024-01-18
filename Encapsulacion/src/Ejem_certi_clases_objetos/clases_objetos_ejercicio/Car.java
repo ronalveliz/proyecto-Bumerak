@@ -1,4 +1,4 @@
-package Ejem_certi_clases_objetos;
+package Ejem_certi_clases_objetos.clases_objetos_ejercicio;
 
 public class Car {
     private String brand;
